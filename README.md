@@ -4,15 +4,12 @@
 
 ## Background
 
-
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
-
+Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively.
+So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
 
 Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
-
 But, if pressed, how would you **prove** it?
-
 
 ![Equator](Images/equatorsign.png)
 
@@ -40,13 +37,16 @@ But, if pressed, how would you **prove** it?
 ### Adding A .gitignore File
 
 
-We don't want the `api_keys.py` file containing the API key to be exposed to the public on GitHub, as this would mean anyone could copy and use our API key, possibly causing us to incur charges.
+We don't want the `api_keys.py` file containing the API key to be exposed to the public on GitHub,
+as this would mean anyone could copy and use our API key,possibly causing us to incur charges.
 
 
 When we type `git status` in the command line, we can see all the files we have created so far that are untracked.
 
 
-If we only wanted to add the `WeatherPy.ipynb` file to GitHub we could type `git add WeatherPy.ipynb`. However, every time we want to add a new file or update current files to the repository, we have to add each file individually, which is time-consuming and cumbersome. Instead, we can add the files we don't want to track to the `.gitignore` file.
+If we only wanted to add the `WeatherPy.ipynb` file to GitHub we could type `git add WeatherPy.ipynb`.
+However, every time we want to add a new file or update current files to the repository, we have to add each file individually, which is time-consuming and cumbersome.
+Instead, we can add the files we don't want to track to the `.gitignore` file.
 
 
 Before we add our files to GitHub, let's add `api_keys.py` to the `.gitignore` file. Follow these steps:
